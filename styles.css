@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+body {
+  background-color: #141414;
+  font-family: "Helvetica";
+}
+
+.featured-content {
+  background-image: url(./assets/banner-dark.jpg);
+  min-height: 500px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .left-nav a {
+  color: #fff;
+}
+
+.navbar .left-nav a img {
+  width: 8rem;
+}
+
+.navbar .right-nav a {
+  color: #fff;
+}
+
+.navbar .right-nav a img {
+  width: 32px;
+}
